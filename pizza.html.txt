@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>PizzaOrdering</title>
+<style>
+body {
+    background-image: url("file:///C:/Users/nikhil/Desktop/pizza.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-weight: 1000;
+}
+.A{
+padding-left: 15%; 
+}
+h1, h3, ul, li {
+color: white;
+font-weight: 1000; 
+}
+</style>
+
+
+<!-- integrating the bot  -->
+
+
+<script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"24c23e39d2d6478a623141814c70b05c7","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+
+
+</head>
+<body>
+<center><h1>PizzaOrdering</h1></center>
+<hr />
+<div class = "A">
+<h3><u>Pizza Type</u></h3>
+<ul>
+<li>Peppy Paneer</li>
+<li>Corn</li>
+<li>Non-Veg Supreme</li>
+<li>Chicken Dominator</li>
+</ul>
+<h3><u>Pizza Size</u></h3>
+<ul>
+<li>Small</li>
+<li>Medium</li>
+<li>Large</li>
+</ul>
+<h3><u>Pizza Crust</u></h3>
+<ul>
+<li>Wheat Crust</li>
+<li>Cheese Burst</li>
+<li>Fresh Pan</li>
+</ul>
+<h3><u>Appetizers</u></h3>
+<ul>
+<li>Pepsi</li>
+<li>French Fries</li>
+<li>Chocolava</li>
+<li>No</li>
+</ul>
+</div>
+<hr />
+<marquee scrollamount="15">
+||15% OFF ON PREPAID ORDERS||15% OFF ON PREPAID ORDERS||15% OFF ON PREPAID ORDERS|| 15% OFF ON PREPAID ORDERS|| 15% OFF ON PREPAID ORDERS|| 15% OFF ON PREPAID ORDERS||
+</marquee>
+<hr />
+</body>
+</html>
