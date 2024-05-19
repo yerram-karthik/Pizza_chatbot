@@ -3,7 +3,7 @@
 <title>PizzaOrdering</title>
 <style>
 body {
-    background-image: url("file:///C:/Users/nikhil/Desktop/pizza.jpg");
+    background-image: url("file:///C:/Users/karthik/Desktop/pizza.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
